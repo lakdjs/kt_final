@@ -30,7 +30,10 @@ namespace kt_Final_interfaces_Filchagin
             Position = new Position(xPos, yPos);
             Range = range;
         }
+        public virtual void CheckForNecessityAction()
+        {
 
+        }
         public void Attack(IDeath enemy)
         {
             enemy.ReceiveDamage(Damage);

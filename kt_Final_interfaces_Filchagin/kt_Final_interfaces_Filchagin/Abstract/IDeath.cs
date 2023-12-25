@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace kt_Final_interfaces_Filchagin.Abstract
 {
-    public interface Interface1
+    public interface IDeath
     {
+        public float Hp { get; }
+        public void ReceiveDamage(float damage);
     }
 }

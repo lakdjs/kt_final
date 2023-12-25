@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace kt_Final_interfaces_Filchagin.Abstract
 {
-    internal interface Interface1
+    public interface IHavingPosition
     {
+        public Position Position { get; }
     }
 }

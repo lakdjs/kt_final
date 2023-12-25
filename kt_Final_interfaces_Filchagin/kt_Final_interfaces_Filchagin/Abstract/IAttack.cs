@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace kt_Final_interfaces_Filchagin.Abstract
 {
-    internal interface IAttack
+    public interface IAttack
     {
-        public int Damage { get; }
+        public float Damage { get; }
         public void Attack(IDeath enemy); 
     }
 }

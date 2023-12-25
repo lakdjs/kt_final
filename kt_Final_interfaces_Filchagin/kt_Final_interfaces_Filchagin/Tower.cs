@@ -11,6 +11,11 @@ namespace kt_Final_interfaces_Filchagin
     {
         public Tower(string name, float damage, int hp, int xPos, int yPos, int range) : base(name, damage, hp, xPos, yPos, range)
         {
+            Name = name;
+            Damage = damage;
+            Hp = hp;
+            Position = new Position(xPos, yPos);
+            Range = range;
         }
 
     }
